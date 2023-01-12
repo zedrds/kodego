@@ -1,0 +1,16 @@
+.logo{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+body{
+    background-image: url("/img/brew2x.jpg");
+    object-fit: fill;
+}
+.navbar{
+    opacity: 0.85;
+}
+h1{
+    color: white;
+}
