@@ -1,22 +1,18 @@
 .logo{
-    width: 70px;
+    height:100%;
     border-radius: 50%;
     margin-left: 20px;
     object-fit: cover;
 }
 body{
     background-image: url("/img/brew2x.jpg");
-    background-size: cover;
+    background-size: contain;
 }
-.navbar{
-    opacity: 0.85;
+.nav-bar{
     height: 9vh;
 }
 h1{
     color: rgb(255, 255, 255);
-}
-header{
-    background-color: rgba(0, 0, 0, 0.384);
 }
 .h_image{
     width: 100px;
@@ -27,5 +23,20 @@ header{
     height: 10px;
 }
 #menu{
-    width: 700px;
+    width: 80vw;
+}
+#promo-vid{
+    width: 100%;
+    height: 50%;
+}
+#video{
+    pointer-events: none;
+   height: 5vh;
+   width: 100vw;
+}
+@media (max-width:420px){
+    .logo{
+        height: 100%;
+    }
+
 }
