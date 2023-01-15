@@ -24,7 +24,10 @@ h1{
     height: 10px;
 }
 #menu{
-    width: 40vw;
+    width: 100vw;
+}
+#menupage{
+    width: 25vw;
 }
 #promo-vid{
     width: 100%;
@@ -32,16 +35,28 @@ h1{
 }
 #video{
     pointer-events: none;
-   height: 5vh;
+   height: 1vh;
    width: 100vw;
 }
-#carousel-item{
-    height: 100%;
-    width: 100%;
+
+.carousel-inner{
+    width: 30vw;
 }
-.container-menu{
+.carousel-control-next ,.carousel-control-prev{
+    align-self: center;
+    width: auto;
+}
+.container-feedback{
     background-color: rgba(24, 23, 23, 0.11);
     opacity: .8;
+}
+.container-services{
+    background-color: rgba(24, 23, 23, 0.11);
+    opacity: .8;
+}
+.footerimg{
+    border-radius: 50%;
+    width: 150px;
 }
 @media (max-width:420px){
     .logo{
@@ -54,13 +69,26 @@ h1{
     display: flex;
     flex-wrap: wrap;
    }
-   #menu{
+   .carousel-inner{
     width: 100%;
+   }
+   #menu{
+    width: 50vw;
+   }
+   #menupage{
+    width:100%;
    }
   .reviews{
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
    }
-  
 }
+
+/* .carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 50px;
+    left: 0;
+    min-height: 500px;
+} */
