@@ -43,10 +43,24 @@ h1{
     background-color: rgba(24, 23, 23, 0.11);
     opacity: .8;
 }
-
 @media (max-width:420px){
     .logo{
         height: 100%;
     }
-
+}
+@media (max-width:834px){
+   .containerMenu{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   #menu{
+    width: 100%;
+   }
+  .reviews{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+   }
+  
 }
