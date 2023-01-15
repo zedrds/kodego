@@ -11,8 +11,9 @@
     <link rel="icon" href="/img/logo1.jpg">
 </head>
 <body>
+     <!--Nav-->
     <div>
-    <nav class="justify-content-between nav-bar bg-dark text-bg-dark d-flex border-light border" data-bs-theme="dark">
+    <nav class="justify-content-between nav-bar bg-dark text-bg-dark d-flex" data-bs-theme="dark">
         <a href="index.html"><img src="/img/logo1.jpg" alt="" class="logo"></a>
         <div class="navigationBtn d-flex align-items-center">
             <a href="#" class="pe-3"><i class="icon fa-solid fa-house fs-2"></i></a>
@@ -21,14 +22,85 @@
         </div>
       </nav>
     </div>
+    <!--Video-->
+    <div>
         <div class="d-flex w-100 justify-content-center embed-responsive ratio ratio-16x9" id="vid">
             <video autoplay loop muted><source src="/video/promo.mp4"></video>
-          </div>
-    <div class="container d-flex flex-row justify-content-center pt-3">
+        </div>
+    </div>
+    
+    <div class="container-menu d-flex justify-content-center bg-dark text-bg-dark pt-3">
+        <h1>Menu</h1>
+    </div>
+
+    <!--Carousel-->
+    <div class="container d-flex">
+    <div class="container d-flex flex-row justify-content-start ">
         <img src="/img/menu1.jpg" alt="" id="menu">
-        
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="/img/serv1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/prod2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/prod3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/prod4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/prod5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/prod6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Feedbacks-->
+    <div class="container-menu d-flex justify-content-center bg-dark text-bg-dark pt-3 mt-3 pb-4">
+        <h1>Feedback</h1>
+    </div>
+    <div class="reviews d-flex flex-row ps-3 justify-content-evenly pt-3">
+        <div class="card" style="width: 18rem;">
+            <img src="/img/feedback1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/img/feedback2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/img/feedback3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
     </div>
 </body>
+<footer class="d-flex flex-column bg-dark">
+    <h1>asdasd</h1>
+    <div class="container">
+        <h1>asdasd</h1>
+        <h1>asdasd</h1>
+    </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="/script/vid.js"></script>
-</html>                                
+</html> 
