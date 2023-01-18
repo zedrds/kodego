@@ -38,9 +38,6 @@ h1{
    height: 1vh;
    width: 100vw;
 }
-video{
-    width: 55%;
-}
 .carousel-inner{
     width: 30vw;
 }
@@ -86,17 +83,6 @@ video{
     flex-wrap: wrap;
    }
    .video{
-    width: 100vw;
-   }
-   #video{
-    width: 100vw;
+    width:100vw
    }
 }
-
-/* .carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 50px;
-    left: 0;
-    min-height: 500px;
-} */
