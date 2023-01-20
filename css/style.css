@@ -28,7 +28,7 @@ h1{
     width: 100vw;
 }
 #menupage{
-    width: 25vw;
+    width: 35vw;
 }
 #promo-vid{
     width: 100%;
@@ -40,7 +40,7 @@ h1{
    width: 100vw;
 }
 .carousel-inner{
-    width: 30vw;
+    width: 40vw;
 }
 .carousel-control-next ,.carousel-control-prev{
     align-self: center;
@@ -58,6 +58,13 @@ h1{
     border-radius: 50%;
     width: 150px;
 }
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
 @media (max-width:420px){
     .logo{
         height: 100%;

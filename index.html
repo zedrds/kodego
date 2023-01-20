@@ -14,15 +14,22 @@
      <!--Nav-->
     <div id="home">
     <nav class="justify-content-between nav-bar bg-dark text-bg-dark d-flex" data-bs-theme="dark">
-        <a href="index.html"><img src="/img/logo1.jpg" alt="" class="logo"></a>
-        <div class="navigationBtn d-flex align-items-center">
-            <a href="#home" class="pe-3"><i class="icon fa-solid fa-house fs-5"></i></a>
-            <a href="#mnupage" class="pe-3"><i class="fa-solid text-white fa-mug-hot fs-5"></i></a>
-            <a href="#services" class="pe-3"><i class="icon fa-solid fa-bell-concierge fs-5"></i></a>
-            <a href="#feedback" class="pe-3"><i class="fa-solid text-white fa-comment fs-5"></i></a>
+        <a href="index.html"><img src="/img/logo1.jpg" alt="" class="logo ms-5"></a>
+      <!--Nav Icons-->
+        <div class="navigationBtn d-flex align-items-center me-5 p-3">
+            <a href="#home" class="pe-3"><i class="icon fa-solid fa-house fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home"></i></a>
+            <a href="#mnupage" class="pe-3"><i class="fa-solid text-white fa-mug-hot fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Menu"></i></a>
+            <a href="#services" class="pe-3"><i class="icon fa-solid fa-bell-concierge fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Services"></i></a>
+            <a href="#feedback" class="pe-3"><i class="fa-solid text-white fa-comment fs-5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Feedback"></i></a>
         </div>
       </nav>
     </div>
+    <!--Back to top button-->
+    <button
+        type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
     <!--Video-->
         <div class="d-flex justify-content-center ratio ratio-16x9" id="vid">
             <video autoplay loop muted><source src="/video/promo.mp4"></video>
